@@ -1,0 +1,193 @@
+/* Big tablet to 1200px; */
+@media only screen  and (max-width:1200px){
+    html{
+        font-size: 15px;
+    }
+
+    form{
+        margin-left: 25%;
+    }
+
+    .row{
+        margin-left: 2%;
+    }
+
+    .btn{
+        margin-left: 440px;
+    }
+ }
+ 
+ /* Small tablet to big tablet from 768x to 1023px */
+@media only screen and (max-width:1023px){
+
+    html{
+        font-size: 12px;
+    }
+    
+    .logo{
+        width: 15%;
+    }
+
+    header .btn{
+        opacity: 0;
+    }
+
+    .btn{
+        font-size: 88%;
+    }
+
+    header{
+        height: 580px;
+    }
+
+    .more{
+        margin-left: 70px;
+    }
+
+    .rooms-section{
+        height: 550px;
+    }
+    .rooms{
+        height: 280px;
+    }
+
+    .rooms ul li i{
+        font-size: 100%;
+    }
+
+    .rooms ul li{
+        margin-left: -28px;
+    }
+
+    .rooms .btn{
+        margin-top: 4%;
+    }
+
+    .information .small-icon{
+        margin-right: 5px;
+    }
+
+    .information{
+        font-size: 115%;
+    }
+}
+
+/* Small phones to small tablets from 480px to 767px */
+@media only screen and (max-width: 767px){
+    html{
+        font-size: 10px;
+    }
+    .col{
+        width: 100%;
+    }
+
+    .main-nav{
+        display: none;
+    }
+
+    .logo{
+        width: 20%;
+    }
+
+    .row{
+        margin-left: 8%;
+    }
+
+    .aboutus-section{
+        height: 1010px;
+    }
+
+    .rooms-section{
+        height: 1100px;
+    }
+
+    .more{
+        display: none;
+    }
+
+    .rooms ul li{
+        margin-left: 60px;
+        font-size: 160%;
+    }
+
+    .rooms-section .btn{
+        margin-left: 35%;
+        margin-top: 6%;
+    }
+
+    .activity-section{
+        height: 500px;
+    }
+
+    .slide img{
+        width: 70%;
+        height: 70%;
+    }
+
+    .slides{
+        width: 80%;
+        height: 80%;
+    }
+
+    .slides .nav{
+        opacity: 0;
+    }
+
+    .nav-dots{
+        top: 260px;
+        left: 5px;
+    }
+
+    .testimoials-section{
+        height: 850px;
+    }
+
+    .testimoials-section img{
+        width: 20%;
+    }
+
+    form{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    label{
+        margin-left:40%;
+    }
+
+    .information{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .information li{
+      font-size: 12px;
+    }
+
+    .social-icons{
+        text-align: center;
+    }
+
+    .social-icons li {
+        font-size: 30px;
+        margin-bottom: 20px;
+        margin-top: -10px;
+    }
+
+    form{
+        margin-left: 5%;
+    }
+
+    input, textarea{
+        margin-left: 5%;
+    }
+
+    .contact-section .btn{
+        margin-left: -10px;
+    }
+
+}
+
+/* Small phones from 0 to 480px; */
+@media only screen and (max-width: 480px){
+}
